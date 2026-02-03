@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuvaad - Kannada & English Translator</title>
+    <meta name="description" content="Seamless translation between Kannada and English with premium accuracy and design.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+Kannada:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav class="navbar glass">
+        <div class="logo">
+            <span class="material-symbols-rounded icon">translate</span>
+            <span class="logo-text">Anuvaad <span class="kannada-text">ಅನುವಾದ</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <button class="btn-primary">Get Started</button>
+    </nav>
+
+    <main id="home">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Bridge the Gap Between <br><span class="gradient-text">English & Kannada</span></h1>
+                <p>Experience seamless, high-accuracy translation powered by advanced AI. Communicate effortlessly.</p>
+                <div class="cta-group">
+                    <button class="btn-primary large">Start Translating</button>
+                    <button class="btn-secondary large">Download App</button>
+                </div>
+            </div>
+            
+            <div class="translator-mockup glass">
+                <div class="monitor-header">
+                    <div class="dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                </div>
+                <div class="translation-interface">
+                    <div class="language-selector">
+                        <span class="lang active">English</span>
+                        <span class="material-symbols-rounded swap-icon">sync_alt</span>
+                        <span class="lang">Kannada</span>
+                    </div>
+                    <div class="text-area-container">
+                        <div class="input-area">
+                            <p class="placeholder">Enter text to translate...</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="output-area">
+                            <p class="kannada-text placeholder">ಅನುವಾದವನ್ನು ಇಲ್ಲಿ ನೋಡಿ...</p>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <span class="material-symbols-rounded action-btn">mic</span>
+                        <span class="material-symbols-rounded action-btn">volume_up</span>
+                        <button class="btn-translate">Translate</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="section-header">
+                <h2>Why Choose Anuvaad?</h2>
+                <p>Premium features designed for seamless communication.</p>
+            </div>
+            <div class="feature-cards">
+                <div class="card glass">
+                    <div class="icon-box">
+                        <span class="material-symbols-rounded">bolt</span>
+                    </div>
+                    <h3>Instant Translation</h3>
+                    <p>Get real-time translations as you type with zero latency.</p>
+                </div>
+                <div class="card glass">
+                    <div class="icon-box">
+                        <span class="material-symbols-rounded">record_voice_over</span>
+                    </div>
+                    <h3>Voice Support</h3>
+                    <p>Speak in English or Kannada and get accurate voice output.</p>
+                </div>
+                <div class="card glass">
+                    <div class="icon-box">
+                        <span class="material-symbols-rounded">offline_bolt</span>
+                    </div>
+                    <h3>Offline Mode</h3>
+                    <p>Access your favorite translations even without internet.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content glass">
+            <div class="footer-logo">
+                <h3>Anuvaad</h3>
+                <p>Breaking language barriers, one word at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Anuvaad Translator. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
